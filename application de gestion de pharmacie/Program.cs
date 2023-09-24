@@ -14,6 +14,7 @@ namespace application_de_gestion_de_pharmacie
         [STAThread]
         static void Main()
         {
+            //Application
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
