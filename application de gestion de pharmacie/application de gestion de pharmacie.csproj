@@ -85,6 +85,12 @@
     <Compile Include="Fabricants.Designer.cs">
       <DependentUpon>Fabricants.cs</DependentUpon>
     </Compile>
+    <Compile Include="Factures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Factures.Designer.cs">
+      <DependentUpon>Factures.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Fabricants.resx">
       <DependentUpon>Fabricants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Factures.resx">
+      <DependentUpon>Factures.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
